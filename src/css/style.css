@@ -24,6 +24,9 @@ body {
         padding: 10px;
     }
 }
+.bigger {
+    font-size: 40px;
+}
 /*=========navbar top menu=============*/
 .top-nav {
     padding: 0 15px;
@@ -41,10 +44,10 @@ body {
     color: #999;
 }
 
-.top-nav>li>a:hover, 
-.top-nav>li>a:focus, 
-.top-nav>.open>a, 
-.top-nav>.open>a:hover, 
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
 .top-nav>.open>a:focus {
     color: #fff;
     background-color: #000;
@@ -82,14 +85,14 @@ li.message-footer {
     margin: 5px 0;
 }
 .badge-alert-notify, .badge-message-notify {
-	position:relative;
-    top: -12px;
-    left: -12px;
+	  position:absolute;;
+    top: 7px;
+    left: 20px;
     font-size: 10px;
 }
 .badge-message-notify {
 	background:#04b71a;
-   
+
 }
 .badge-alert-notify {
 	background:#d40e32;
@@ -135,4 +138,78 @@ li.message-footer {
 
 .side-nav>li>ul>li>a:hover {
     color: #fff;
+}
+/*==============chat box===============*/
+#small-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+#small-chat .badge {
+    position: absolute;
+    top: -3px;
+    right: -4px;
+    background: #f8ac59;
+}
+.open-small-chat {
+    height: 38px;
+    width: 38px;
+    display: block;
+    background: #337ab7;
+    padding: 9px 8px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
+/*===========panels===============*/
+.panel-green {
+    border-color: #5cb85c;
+}
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: white;
+    background-color: #5cb85c;
+}
+.panel-green > a {
+  color: #5cb85c;
+}
+.panel-red {
+    border-color: #d9534f;
+}
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: white;
+    background-color: #d9534f;
+}
+.panel-red > a {
+  color: #d9534f;
+}
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: white;
+    background-color: #f0ad4e;
+}
+.panel-yellow > a {
+  color: #f0ad4e;
+}
+.panel-grey {
+    border-color: #5d5b5b;
+}
+.panel-grey > .panel-heading {
+    border-color: #5d5b5b;
+    color: white;
+    background-color: #5d5b5b;
+}
+.panel-grey > a {
+  color: #5d5b5b;
+}
+/*========data panel==========*/
+
+.value {
+    float: right;
+    font-weight: bold;
 }
