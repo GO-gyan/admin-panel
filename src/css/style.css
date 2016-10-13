@@ -24,6 +24,16 @@ body {
         padding: 10px;
     }
 }
+.carousel-inner .item img {
+  height: 250px;
+  width: 250px;
+}
+@media(min-width:768px) {
+    .carousel-inner .item img {
+      height: 500px;
+      width: 500px;
+    }
+}
 .bigger {
     font-size: 40px;
 }
@@ -212,7 +222,7 @@ li.message-footer {
     float: right;
     font-weight: bold;
 }
-/*========mail panel===========*/
+/*========Schedule panel===========*/
 
 .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
@@ -224,4 +234,62 @@ li.message-footer {
 .panel-heading .accordion-toggle.collapsed:after {
     /* symbol for "collapsed" panels */
     content: "\e080";
+}
+.meeting > div > i{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  padding: 5px;
+  border-top: 1px solid #dff0d8;
+  border-bottom: 1px solid #dff0d8;
+  border-left: 1px solid #dff0d8;
+  background: #dff0d8;
+}
+.text-navy{
+  color: #1ab394;
+}
+.meet-head {
+  text-align: center;
+  position: relative;
+  padding-top: 40px;
+}
+.meet-body {
+  border-bottom: 1px solid #dff0d8;
+  border-left: 1px solid #dff0d8;
+}
+/* tabs */
+.tabs-container .tabs-left > .nav-tabs {
+    float: left;
+    margin-right: 19px;
+    width: 20%;
+    border-bottom: 0;
+}
+.tabs-container .tabs-left > .nav-tabs > li {
+    float: none;
+}
+.tabs-container .tabs-left > .nav-tabs > li > a {
+    margin-right: -1px;
+    border-radius: 4px 0 0 4px;
+}
+.tabs-container .tabs-left .panel-body {
+    width: 80%;
+    margin-left: 20%;
+}
+.tabs-container .tab-content > .active {
+    display: block;
+}
+.tabs-container .panel-body {
+    background: #fff;
+    border: 1px solid #e7eaec;
+    border-radius: 2px;
+    padding: 20px;
+    position: static;
+}
+.tabs-container .tabs-left > .nav-tabs .active > a {
+    border-color: #e7eaec transparent #e7eaec #e7eaec;
+}
+/*=======table==========*/
+.footer-text {
+  padding-top: 30px;
 }
