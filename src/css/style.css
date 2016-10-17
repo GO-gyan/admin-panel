@@ -289,6 +289,10 @@ li.message-footer {
 .tabs-container .tabs-left > .nav-tabs .active > a {
     border-color: #e7eaec transparent #e7eaec #e7eaec;
 }
+.item img {
+  display: block;
+  margin: 0px auto;
+}
 /*=======table==========*/
 .footer-text {
   padding-top: 30px;
