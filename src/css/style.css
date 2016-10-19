@@ -1,3 +1,4 @@
+/*=====Global=======*/
 body {
     margin-top: 100px;
     background-color: #222;
@@ -7,6 +8,7 @@ body {
         margin-top: 50px;
     }
 }
+/*====wrapper======*/
 #wrapper {
     padding-left: 0;
 }
